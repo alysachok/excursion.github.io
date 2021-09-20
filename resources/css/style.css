@@ -1,3 +1,49 @@
-h1 {
-    color: red;
+body {
+    background-color: black;
 }
+
+.center {
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+a {
+    color:aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.footer {
+    text-align: end;
+}
+
